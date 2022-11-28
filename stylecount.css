@@ -1,0 +1,140 @@
+
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #2f3035;
+background-image: url(images/Background1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height:110px;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #00000034;
+}
+
+.main-logo {
+    width: 20%;
+    height: auto;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+
+main {
+    height: 300px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+/* h2 {
+    font-size: 33px;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: #00000034;
+} */
+
+.coming-soon {
+    min-height: 100vh;
+    flex-direction: colomn;
+    justify-content: center;
+}
+
+.countdown {
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #00000075;
+    
+}
+
+.day,.hour,.minute,.second {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: #00000075;
+}
+
+
+
+nav {
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.178);
+    height: 25px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    color: #ffffffdc;    
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.452);
+    padding: 20px;
+    text-shadow: 0 0 10px rgba(46, 46, 46, 0.337), 0 0 5px #41414149;
+}
+
+p {
+    font-size: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.maps {
+    scroll-padding-top: 100px;
+    align-content: bottom;
+}
